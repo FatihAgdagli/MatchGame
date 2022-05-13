@@ -81,9 +81,9 @@ namespace MatchGame
             }
             else if(clickedTextBlock.Text == lastClickedTextBlock.Text)
             {
+                matchFound++;
                 isItfistClick = false;
                 clickedTextBlock.Visibility = Visibility.Hidden;
-                matchFound++;
             }
             else
             {
